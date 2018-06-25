@@ -28,4 +28,4 @@ function disconnect() {
     return mongodb.disconnect();
 }
 
-module.exports = { getAllMovies, getMovieById, getMoviePremiers, disconnect }
+module.exports = { getAllMovies, getMovieById, getMoviePremiers, disconnect }  
