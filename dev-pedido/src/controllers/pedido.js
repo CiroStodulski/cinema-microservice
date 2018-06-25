@@ -37,6 +37,7 @@ module.exports = app => {
         const id = req.params.id;
         const pedido = req.body;
         pedido.id = id
+        
         try {
             const response = await PedidoModel.updatePedido(pedido);
             res.status(202).json(response);
